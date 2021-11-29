@@ -99,6 +99,7 @@ const Home = () => {
                                 </a>
                             </div>
                         </Col>
+
                         <Col className="col-2 order-0" data-aos="zoom-in">
                             <img src={MyImage} className="img-myself" />
                         </Col>
