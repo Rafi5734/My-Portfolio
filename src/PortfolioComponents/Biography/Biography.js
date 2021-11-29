@@ -119,7 +119,7 @@ const Biography = () => {
                 <Row>
                     <Col>
                         <div
-                            className="bio-telegram text-center p-3 bio mt-2"
+                            className="bio-institute text-center p-3 bio mt-2"
                             data-aos="fade-left"
                         >
                             <span className="bio1">institute:</span>{" "}

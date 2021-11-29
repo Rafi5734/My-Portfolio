@@ -1,5 +1,6 @@
 .bio-container {
     margin-bottom: 100px;
+    height: 90vh;
 }
 
 .bio-title {
@@ -33,6 +34,9 @@
     border: 1px solid #000;
 }
 .bio-telegram {
+    border: 1px solid #000;
+}
+.bio-institute {
     border: 1px solid #000;
 }
 .bio:hover {
