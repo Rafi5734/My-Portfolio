@@ -1,8 +1,9 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row, Button } from "react-bootstrap";
 import "./projects.css";
 import ProjectCover1 from "../../projects1-banner.png";
 import ProjectCover2 from "../../tour-cover.png";
+import { Link } from "react-router-dom";
 const Projects = () => {
     return (
         <div className="theProjects mb-5">
@@ -13,7 +14,7 @@ const Projects = () => {
                             className="project-title text-center text-nowrap"
                             // style={{ marginTop: "100px" }}
                         >
-                            There are my projects.
+                            My Projects
                         </h1>
                     </div>
                     <Col lg={6} className="mt-5">
@@ -59,6 +60,14 @@ const Projects = () => {
                                     <i class="fas fa-server project-icon"></i>
                                 </a>
                             </div>
+                            <Link to="/project2">
+                                <Button
+                                    variant="outline-success"
+                                    className="mt-4 mb-4"
+                                >
+                                    See Details
+                                </Button>{" "}
+                            </Link>
                         </div>
                     </Col>
 
@@ -107,6 +116,14 @@ const Projects = () => {
                                     <i class="fas fa-server project-icon"></i>
                                 </a>
                             </div>
+                            <Link to="/project1">
+                                <Button
+                                    variant="outline-success"
+                                    className="mt-4 mb-4"
+                                >
+                                    See Details
+                                </Button>{" "}
+                            </Link>
                         </div>
                     </Col>
                 </Row>

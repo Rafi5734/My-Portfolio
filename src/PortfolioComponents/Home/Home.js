@@ -64,8 +64,9 @@ const Home = () => {
                                     </h1>
                                     <div data-aos="fade-right">
                                         <span className="profile-role-tagline lead">
-                                            Knack of building applications with
-                                            front and back-end(CRUD) operations.
+                                            Ability to create apps with both
+                                            front-end and back-end (CRUD)
+                                            activities.
                                         </span>
                                     </div>
                                 </span>
@@ -85,8 +86,8 @@ const Home = () => {
                                 </a>
 
                                 <a
-                                    href="kamrul's Resume.pdf"
-                                    download="Kamrul Resume"
+                                    href="https://docs.google.com/document/d/17UlWthqPxsxEiCwRQzIlnAhHg7xtGx1NrbdFzvCscdk/edit"
+                                    download="Kamrul's Resume"
                                 >
                                     <button
                                         type="button"
@@ -117,7 +118,7 @@ const Home = () => {
                     d="M0,192L60,181.3C120,171,240,149,360,165.3C480,181,600,235,720,261.3C840,288,960,288,1080,250.7C1200,213,1320,139,1380,101.3L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
                 ></path>
             </svg>
-            <Biography></Biography>
+            {/* <Biography></Biography> */}
             {/* <Footer></Footer> */}
         </>
     );

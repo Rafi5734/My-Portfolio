@@ -13,6 +13,9 @@ import {
 import AboutMe from "./PortfolioComponents/AboutMe/AboutMe";
 import Projects from "./PortfolioComponents/Projects/Projects";
 import ContactMe from "./PortfolioComponents/ContactMe/ContactMe";
+import Project1 from "./PortfolioComponents/Project1/Project1";
+import Project2 from "./PortfolioComponents/Project2/Project2";
+import Blogs from "./PortfolioComponents/Blogs/Blogs";
 
 function App() {
     return (
@@ -37,18 +40,23 @@ function App() {
                                     Home
                                 </Link>
                                 <Link to="/about" className="links">
-                                    Skills
+                                    About Me
                                 </Link>
+
+                                <Link to="/blogs" className="links">
+                                    Blogs
+                                </Link>
+
                                 <Link to="/project" className="links">
                                     Projects
                                 </Link>
                                 <Link to="/contact" className="links">
-                                    ContactMe
+                                    Contact Me
                                 </Link>
                             </Nav>
                             <Form className="d-flex get-btn">
                                 <a
-                                    href="kamrul's Resume.pdf"
+                                    href="https://docs.google.com/document/d/17UlWthqPxsxEiCwRQzIlnAhHg7xtGx1NrbdFzvCscdk/edit"
                                     download="Kamrul Resume"
                                 >
                                     <Button variant="outline-success">
@@ -65,6 +73,9 @@ function App() {
                     <Route path="about" element={<AboutMe />}></Route>
                     <Route path="project" element={<Projects />}></Route>
                     <Route path="contact" element={<ContactMe />}></Route>
+                    <Route path="project1" element={<Project1 />}></Route>
+                    <Route path="project2" element={<Project2 />}></Route>
+                    <Route path="blogs" element={<Blogs />}></Route>
                 </Routes>
             </BrowserRouter>
         </div>

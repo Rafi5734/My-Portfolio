@@ -1,6 +1,11 @@
 .bio-container {
-    margin-bottom: 100px;
-    height: 90vh;
+    /* margin-bottom: 100px; */
+    height: 0vh;
+    overflow: hidden;
+}
+
+.bio-info {
+    color: red;
 }
 
 .bio-title {
@@ -12,33 +17,11 @@
     margin-bottom: 5rem;
     letter-spacing: 3.5px;
 }
-.bio-name {
-    border: 1px solid #000;
+.bio-title1 {
+    border: 1px solid #ee481f;
+    padding: 10px;
 }
-.bio-date {
-    border: 1px solid #000;
-}
-.bio-age {
-    border: 1px solid #000;
-}
-.bio-address {
-    border: 1px solid #000;
-}
-.bio-phone {
-    border: 1px solid #000;
-}
-.bio-whatsapp {
-    border: 1px solid #000;
-}
-.bio-email {
-    border: 1px solid #000;
-}
-.bio-telegram {
-    border: 1px solid #000;
-}
-.bio-institute {
-    border: 1px solid #000;
-}
+
 .bio:hover {
     background-color: #ee481f;
     color: #fff;
@@ -59,6 +42,11 @@
     outline: none;
 }
 @media only screen and (max-width: 450px) {
+    .bio-container {
+        /* margin-bottom: 100px; */
+        height: 100vh;
+        overflow: hidden;
+    }
     .bio-title {
         margin-top: 0px;
     }

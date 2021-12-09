@@ -1,11 +1,12 @@
 .profile-container {
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     background-color: #232851;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    overflow: hidden;
 }
 .intro-row {
     margin-top: -400px;
@@ -60,9 +61,22 @@
     margin-bottom: 0;
 }
 .svg {
-    position: relative;
+    position: absolute;
     width: 100%;
-    bottom: 400px;
+    top: 450px;
+    overflow: hidden;
+}
+@media only screen and (max-width: 1250px) {
+    .img-myself {
+        margin-bottom: -13px;
+        margin-right: 150px;
+        width: 250px;
+    }
+    .svg {
+        position: relative;
+        width: 100%;
+        top: -265px;
+    }
 }
 
 @media only screen and (max-width: 450px) {
@@ -70,15 +84,15 @@
         margin-top: 0px;
     }
     .profile-container {
-        height: 180vh;
+        height: 160vh;
     }
     .img-myself {
-        margin-bottom: 530px;
+        margin-bottom: 517px;
         margin-right: 350px;
         width: 200px;
     }
     .profile-col-icons {
-        margin-top: 2em;
+        margin-top: 2.5em;
         margin-left: 55px;
     }
     .primary-text {
@@ -101,6 +115,6 @@
     .svg {
         position: relative;
         width: 100%;
-        top: -95px;
+        top: -90px;
     }
-} ;
+}

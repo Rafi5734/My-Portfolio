@@ -14,19 +14,22 @@ const ContactMe = () => {
                         padding: "10px",
                     }}
                 >
-                    Simply notify me{" "}
+                    GET IN{" "}
                     <span
                         style={{
                             color: "green",
                         }}
                     >
-                        if you do need something.
+                        TOUCH
                     </span>
                 </h1>
             </div>
 
             <Container>
                 <Row className="contact-row">
+                    <Col>
+                        <Footer></Footer>
+                    </Col>
                     <Col className="contact-address">
                         <div style={{ marginTop: "100px" }}>
                             <i
@@ -88,9 +91,6 @@ const ContactMe = () => {
                                 <i class="fab fa-github"></i>
                             </a>
                         </div>
-                    </Col>
-                    <Col>
-                        <Footer></Footer>
                     </Col>
                 </Row>
             </Container>
