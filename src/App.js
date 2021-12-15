@@ -56,7 +56,7 @@ function App() {
                             </Nav>
                             <Form className="d-flex get-btn">
                                 <a
-                                    href="https://docs.google.com/document/d/17UlWthqPxsxEiCwRQzIlnAhHg7xtGx1NrbdFzvCscdk/edit"
+                                    href="https://docs.google.com/document/d/17UlWthqPxsxEiCwRQzIlnAhHg7xtGx1NrbdFzvCscdk/edit?usp=sharing"
                                     download="Kamrul Resume"
                                 >
                                     <Button variant="outline-success">

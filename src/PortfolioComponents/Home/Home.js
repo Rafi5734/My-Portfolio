@@ -85,10 +85,7 @@ const Home = () => {
                                     </Link>
                                 </a>
 
-                                <a
-                                    href="https://docs.google.com/document/d/17UlWthqPxsxEiCwRQzIlnAhHg7xtGx1NrbdFzvCscdk/edit"
-                                    download="Kamrul's Resume"
-                                >
+                                <a href="https://docs.google.com/document/d/17UlWthqPxsxEiCwRQzIlnAhHg7xtGx1NrbdFzvCscdk/edit?usp=sharing">
                                     <button
                                         type="button"
                                         className="resume-btn fw-bold text-nowrap"
